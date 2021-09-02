@@ -1,0 +1,29 @@
+
+/* my css stylesheet */
+h1{text-align: center;}
+
+#flexer{display: flex;
+    align-items: center;
+width: 60%;
+margin: 3rem auto;}
+
+#input{width: 50rem;
+    height: 2rem;
+font-size: x-large;}
+
+    
+#button{height: 2.4rem;}
+
+    
+#books-container{display: grid;
+    grid-template-columns: repeat(4, 1fr);
+grid-gap: 2rem;
+}
+
+#result-found{margin-bottom: 3rem;
+text-align: center;
+font-size: xx-large;}
+.innerDiv{border: .1rem solid blueviolet;
+padding: 0 1rem;
+background-color: cornsilk;
+border-radius: 10px;}
